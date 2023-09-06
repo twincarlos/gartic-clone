@@ -1,0 +1,7 @@
+.login button {
+    font-size: 2em;
+    background-color: var(--light-blue);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+}

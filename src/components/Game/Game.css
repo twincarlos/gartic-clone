@@ -1,0 +1,51 @@
+.section {
+    width: 85%;
+    background-color: var(--light-blue);
+    border-radius: 5px;
+}
+
+.header {
+    border: 1px solid white;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    height: 80px;
+    margin-top: -20px;
+    padding: 10px 0;
+}
+
+.player-statuses {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.player-status-img {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.not-ready {
+    opacity: 0.5;
+    border: 1px solid grey;
+}
+
+.ready {
+    border: 2px solid greenyellow;
+}
+
+.game-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.game-body {
+    line-height: 0;
+}
+
+.self {
+    display: none;
+}

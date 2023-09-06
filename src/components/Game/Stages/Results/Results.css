@@ -1,0 +1,43 @@
+.podium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.position {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 5px 40px;
+    font-size: 0.7em;
+    height: 50px;
+    width: 85%;
+    background-color: var(--light-blue);
+}
+
+.position img {
+    border-radius: 50%;
+    height: 90%;
+    border: 1px solid white;
+}
+
+.position:first-child {
+    background-color: goldenrod;
+}
+
+.position:nth-child(2) {
+    background-color: rgb(146, 146, 146);
+}
+
+.position:nth-child(3) {
+    background-color: rgb(242, 143, 86);
+}
+
+.results button {
+    width: 150px;
+    height: 3em;
+}

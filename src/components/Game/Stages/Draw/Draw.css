@@ -1,0 +1,36 @@
+.brush-settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+    background-color: var(--light-blue);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.bubble-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+.bubble-inputs button {
+    border-radius: 50%;
+    aspect-ratio: 1;
+    border: 1px solid white;
+}
+
+.submit {
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .draw .submit {
+        position: relative;
+        bottom: 20px;
+    }
+}

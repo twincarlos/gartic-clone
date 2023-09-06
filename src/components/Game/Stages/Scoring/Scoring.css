@@ -1,0 +1,136 @@
+.scoring .header {
+    height: 50px;
+}
+
+.scoring .player-statuses {
+    height: 100%;
+}
+
+.album-info {
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--light-blue);
+    padding: 5px 20px;
+    line-height: 0;
+    margin-top: -10px;
+    width: fit-content;
+}
+
+.album-info img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.album-info span {
+    line-height: 0;
+    text-align: left;
+    padding: 5px;
+    gap: 5px;
+}
+
+.album-owner {
+    font-size: 0.7em;
+}
+
+.task-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.task-header img {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.previous-task, .current-task {
+    width: 100%;
+}
+
+.previous-task {
+    margin-top: -20px;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.previous-task.drawing .task-body img {
+    margin-top: 20px;
+    width: 175px;
+}
+
+.previous-task .task-header {
+    height: 40px;
+    font-size: 0.7em;
+    justify-content: flex-start;
+}
+
+.previous-task .task-body {
+    text-align: left;
+    position: relative;
+    left: 60px;
+    bottom: 30px;
+    height: 10px;
+}
+
+.current-task {
+    position: relative;
+}
+
+.current-task.drawing {
+    bottom: 60px;
+}
+
+.current-task.guess {
+    top: 150px;
+    text-align: right;
+    background-color: var(--light-blue);
+    width: 90%;
+    border-radius: 5px;
+    line-height: 0;
+}
+
+.current-task.guess .task-body {
+    position: relative;
+    right: 30px;
+    bottom: 20px;
+}
+
+.current-task .task-header {
+    height: 60px;
+    font-size: 0.7em;
+    justify-content: end;
+}
+
+.score-section {
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
+    height: 180px;
+    font-size: 0.8em;
+}
+
+.score-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.score-buttons button {
+    width: 100px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    font-size: 2em;
+}
+
+.task-body img {
+    width: 230px;
+}
+
+.score-buttons button:disabled {
+    opacity: 0.4;
+}

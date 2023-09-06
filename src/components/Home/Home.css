@@ -1,0 +1,64 @@
+.user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    width: 85%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+    background-color: var(--light-blue);
+    color: white;
+
+}
+
+.user-info span {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 0;
+    padding-bottom: 10px;
+}
+
+.user-info img {
+    border-radius: 50%;
+    height: 50px;
+    border: 1px solid white;
+}
+
+.join-section {
+    text-align: left;
+    width: 85%;
+    background-color: var(--light-blue);
+    padding: 0 20px 30px 20px;
+    border-radius: 5px;
+}
+
+.join-section input {
+    height: 2em;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.join-section button {
+    padding: 8px 20px;
+    font-weight: 600;
+}
+
+.host-section {
+    text-align: left;
+    width: 85%;
+    background-color: var(--light-blue);
+    padding: 0 20px 30px 20px;
+    border-radius: 5px;
+}
+
+.host-section button {
+    width: 200px;
+    height: 3em;
+    font-weight: 600;
+    font-size: 1.2em;
+}

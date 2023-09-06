@@ -1,0 +1,33 @@
+.lobby .section {
+    line-height: 10px;
+}
+
+.players-list {
+    padding-bottom: 20px;
+    max-height: 550px;
+    overflow-y: scroll;
+}
+
+.player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px auto;
+    background-color: var(--dark-blue);
+    border: 1px dotted white;
+}
+
+.start-cancel-buttons {
+    width: 85%;
+    height: 50px;
+}
+
+.start-cancel-buttons button {
+    height: 100%;
+    width: 150px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
